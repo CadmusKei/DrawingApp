@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer components {
+  .icon-pencil {
+    @apply text-white w-7 h-7;
+  }
+
+  .icon {
+    @apply text-[#b8b8b8] w-[3vw] h-[3vh] hover:text-[#ffffff] transition;
+  }
+
+  .generic-text {
+    @apply text-[1rem] font-bold font-serif text-white; 
+  }
+
+  .my-input {
+    @apply w-[10vw] border-solid border-gray-400 border-2 rounded-md mt-1 pl-2 h-8 text-white;
+  }
+
+  .panel {
+    @apply bg-[#242424] flex rounded-full;
+  }
+}
